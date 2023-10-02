@@ -22,7 +22,7 @@ fruit_to_show= my_fruit_list.loc[fruit_selected]
 streamlit.dataframe(fruit_to_show)
 streamlit.header('Fruityvice Fruit Advice!')
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-def get_fruityvice_data() this_fruit_choice:
+def get_fruityvice_data(this_fruit_choice):
   #streamlit.write('The user entered ', fruit_choice)
     fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+fruit_choice)
     # write your own comment -what does the next line do? 
