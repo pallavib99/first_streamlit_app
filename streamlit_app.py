@@ -40,7 +40,7 @@ try:
 except URLERROR as e:
   streamlit.error()
 
-streamlit.stop()
+#streamlit.stop()
 
 #my_cur = my_cnx.cursor()
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
